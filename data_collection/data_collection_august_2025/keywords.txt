@@ -1,0 +1,27 @@
+# keyword|case_sensitive|type
+Large Language Model*|no|type_1
+LLM|no|type_3
+LLMs|no|type_3
+LLM*|no|type_1
+GPT*|no|type_1
+ChatGPT*|no|type_1
+Google Bard|no|type_2
+LLaMA*|yes|type_1
+Claude Anthropic|no|type_2
+AI apocalypse|no|type_2
+Claude|no|type_3
+OpenAI|no|type_3
+Gemini|no|type_3
+Language Models|no|type_2
+PaLM|yes|type_3
+Pathways Language Model|no|type_2
+Fine-tuned Language Net|no|type_2
+FLAN|yes|type_3
+LaMDA|yes|type_3
+BLOOM|yes|type_3
+Language Model for Dialogue Application|no|type_2
+BigScience Large Open-science Open-access Multilingual Language Model|no|type_2
+Mistral AI|no|type_3
+Mixtral|no|type_3
+Replika|no|type_3
+Deepseek|no|type_3
