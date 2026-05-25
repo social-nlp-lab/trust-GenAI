@@ -22,14 +22,14 @@ The input CSV must have an `id` column containing Reddit post IDs. No API keys o
 
 ### Output
 
-- **`hydrated_posts.csv`** — columns: `id`, `title`, `content`
+- **`hydrated_posts.csv`** — columns: `id`, `title`, `text`
 - **`hydration_report.txt`** — summary of the run
 
 Join `hydrated_posts.csv` with your input CSV on the `id` column to get the full annotated dataset.
 
 ## Notes
 
-- Deleted/removed posts appear as `[DELETED_OR_UNAVAILABLE]` in the content column.
+- Deleted/removed posts appear as `[DELETED_OR_UNAVAILABLE]` in the text column.
 - If interrupted, re-run the same command — it resumes from where it left off.
 - Requires Python 3.6+.
 

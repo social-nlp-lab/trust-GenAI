@@ -5,7 +5,7 @@
 #
 # This script retrieves the original Reddit post content using
 # the post IDs in the shared dataset CSV. It produces an output
-# CSV with three columns: id, title, and content (post body).
+# CSV with three columns: id, title, and text (post body).
 # The input CSV only needs an "id" column; titles are fetched
 # directly from Reddit.
 #
@@ -89,7 +89,7 @@ def load_already_fetched(output_file):
         with open(output_file, "r", encoding="utf-8") as f:
             reader = csv.DictReader(f)
             for row in reader:
-                if row["content"] != "[DELETED_OR_UNAVAILABLE]":
+                if row["text"] != "[DELETED_OR_UNAVAILABLE]":
                     fetched[row["id"]] = row
     except Exception:
         pass
@@ -165,7 +165,7 @@ def main():
             hydrated.append({
                 "id": post_id,
                 "title": "",
-                "content": "[DELETED_OR_UNAVAILABLE]",
+                "text": "[DELETED_OR_UNAVAILABLE]",
             })
             deleted_posts.append(post_id)
         elif error:
@@ -173,7 +173,7 @@ def main():
             hydrated.append({
                 "id": post_id,
                 "title": "",
-                "content": "[DELETED_OR_UNAVAILABLE]",
+                "text": "[DELETED_OR_UNAVAILABLE]",
             })
             other_failed_posts.append((post_id, error))
         else:
@@ -181,7 +181,7 @@ def main():
             hydrated.append({
                 "id": post_id,
                 "title": fetched_title,
-                "content": selftext,
+                "text": selftext,
             })
             if (i + 1) % 50 == 0 or (i + 1) == total:
                 print(f"  [{i+1}/{total}] fetched")
@@ -192,7 +192,7 @@ def main():
     # Write output CSV
     print(f"\nSaving results to: {OUTPUT_FILE}")
     with open(OUTPUT_FILE, "w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=["id", "title", "content"])
+        writer = csv.DictWriter(f, fieldnames=["id", "title", "text"])
         writer.writeheader()
         writer.writerows(hydrated)
 
