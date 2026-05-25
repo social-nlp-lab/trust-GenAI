@@ -1,5 +1,5 @@
 # =============================================================
-# Reddit Post Hydration Script for the Trust-TACL 2026 Dataset
+# Reddit Post Hydration Script to scrape reddit posts by ID
 # (Using requests — no API keys or credentials needed)
 # =============================================================
 #
