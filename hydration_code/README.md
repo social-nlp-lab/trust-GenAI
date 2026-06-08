@@ -23,7 +23,7 @@ pip install requests
 ```bash
 python hydrate_reddit_posts.py sample_input.csv
 ```
-#### Please refer to the Zenodo link above for the complete dataset. The provided `sample_input.csv` file contains the IDs of only 30 posts and is intended for demonstration purposes. Running the hydration script on this file will retrieve only those 30 Reddit posts.
+Please refer to the Zenodo link above for the complete dataset. The provided `sample_input.csv` file contains the IDs of only 30 posts and is intended for demonstration purposes. Running the hydration script on this file will retrieve only those 30 Reddit posts.
 
 The input CSV must have an `id` column containing Reddit post IDs. No API keys or Reddit account needed.
 
