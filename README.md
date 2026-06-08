@@ -85,6 +85,8 @@ Published in *Transactions of the Association for Computational Linguistics (TAC
 
 #### BibTeX
 
+```bibtex
+
 @article{pessianzadeh2026generative,
   title={In Generative AI We (Dis)Trust? Computational Analysis of Trust and Distrust in Reddit Discussions},
   author={Pessianzadeh, Aria; Sultana, Naima; Van den Bulck, Hildegarde;
