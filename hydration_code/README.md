@@ -2,7 +2,13 @@
 
 Annotated dataset of **2,690 Reddit posts** with trust/distrust labels and fine-grained trust dimensions.
 
-Per Reddit's Terms of Service, post text cannot be redistributed directly. We share post IDs and annotations in a CSV file. Use the hydration script below to fetch the original post content from Reddit.
+Use the hydration script below to fetch the original post content from Reddit.
+
+## Dataset Availability
+
+The dataset used in this study is publicly available on Zenodo:
+
+https://zenodo.org/records/20331918
 
 ## Usage
 
@@ -15,8 +21,9 @@ pip install requests
 ### Run
 
 ```bash
-python hydrate_reddit_posts.py your_dataset.csv
+python hydrate_reddit_posts.py sample_input.csv
 ```
+# lease refer to the Zenodo link above for the complete dataset. The provided `sample_input.csv` file contains the IDs of only 30 posts and is intended for demonstration purposes. Running the hydration script on this file will retrieve only those 30 Reddit posts.
 
 The input CSV must have an `id` column containing Reddit post IDs. No API keys or Reddit account needed.
 
@@ -33,8 +40,3 @@ Join `hydrated_posts.csv` with your input CSV on the `id` column to get the full
 - If interrupted, re-run the same command — it resumes from where it left off.
 - Requires Python 3.6+.
 
-## Citation
-
-```
-[Citation TBD]
-```
