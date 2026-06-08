@@ -102,11 +102,10 @@ If you use the accompanying dataset, please cite it as follows:
 
 #### BibTeX
 
-@dataset{pessianzadeh2026dataset,
-  author       = {Pessianzadeh, Aria and Sultana, Naima and {Van den Bulck}, Hildegarde and Gefen,
+@dataset{pessianzadeh2026dataset,  author       = {Pessianzadeh, Aria and Sultana, Naima and {Van den Bulck}, Hildegarde and Gefen,
   David and Jabbari, Shahin and Rezapour, Rezvaneh},
-  title        = {{Dataset of Trust and Distrust in Generative AI}},
-  month        = may,
+    title        = {{Dataset of Trust and Distrust in Generative AI}},
+    month        = may,
   year         = 2026,
   publisher    = {Zenodo},
   version      = {v1.0.0},
