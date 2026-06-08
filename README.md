@@ -43,8 +43,12 @@ The cleaned notebook is structured as follows:
 11. Remaining unclassified/diagnostic cells
 
 
-### CSV files
-Required datasets shared on Zenodo
+### Data Availability
+The datasets required to run this pipeline—including the manually annotated ground-truth data and the full-corpus Reddit CSV files—are publicly available on Zenodo:
+
+Dataset Link: https://zenodo.org/records/20331918
+
+Please download these files and place them in your local data directory before running the notebook.
 
 ### Full rerun mode
 
@@ -66,6 +70,43 @@ You will need:
 - Several cells save intermediate files that later sections reload.
 - The cleaned notebook preserves original cell indices in metadata for traceability.
 - Some later cells are revision/diagnostic experiments rather than core pipeline steps.
+
+
+## Citation
+
+If you use this code or reference our findings, please cite our paper:
+
+**Paper Title** *In Generative AI We (Dis)Trust? Computational Analysis of Trust and Distrust in Reddit Discussions.*
+ 
+Published in *Transactions of the Association for Computational Linguistics (TACL)* 
+
+
+* **arXiv Link:** [[arXiv:XXXX.XXXXX](https://arxiv.org/abs/XXXX.XXXXX](https://arxiv.org/pdf/2510.16173)) ### BibTeX
+```bibtex
+@article{pessianzadeh2026generative,
+  title={{In Generative AI We (Dis)Trust? Computational Analysis of Trust and Distrust in Reddit Discussions}},
+  author={Pessianzadeh, Aria; Sultana, Naima; Van den Bulck, Hildegarde; Gefen, David; Jabbari, Shahin; Rezapour, Rezvaneh},
+  journal={Transactions of the Association for Computational Linguistics},
+  year={2026}
+}
+
+### Dataset Citation
+
+If you use the accompanying dataset, please cite it as follows:
+
+
+#### BibTeX
+```bibtex
+@dataset{pessianzadeh2026dataset,
+  author       = {Pessianzadeh, Aria and Sultana, Naima and {Van den Bulck}, Hildegarde and Gefen, David and Jabbari, Shahin and Rezapour, Rezvaneh},
+  title        = {{Dataset of Trust and Distrust in Generative AI}},
+  month        = may,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {10.5281/zenodo.20331918},
+  url          = {[https://doi.org/10.5281/zenodo.20331918](https://doi.org/10.5281/zenodo.20331918)}
+}
 
 
 ## Contact
