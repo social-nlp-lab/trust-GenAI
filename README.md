@@ -81,11 +81,14 @@ If you use this code or reference our findings, please cite our paper:
 Published in *Transactions of the Association for Computational Linguistics (TACL)* 
 
 
-* **arXiv Link:** [https://arxiv.org/pdf/2510.16173](https://arxiv.org/pdf/2510.16173)) ### BibTeX
+* **arXiv Link:** [https://arxiv.org/pdf/2510.16173](https://arxiv.org/pdf/2510.16173))
+
+#### BibTeX
 
 @article{pessianzadeh2026generative,
   title={In Generative AI We (Dis)Trust? Computational Analysis of Trust and Distrust in Reddit Discussions},
-  author={Pessianzadeh, Aria; Sultana, Naima; Van den Bulck, Hildegarde; Gefen, David; Jabari, Shahin; Rezapour, Rezvaneh},
+  author={Pessianzadeh, Aria; Sultana, Naima; Van den Bulck, Hildegarde;
+  Gefen, David; Jabari, Shahin; Rezapour, Rezvaneh},
   journal={Transactions of the Association for Computational Linguistics},
   volume={14},
   year={2026},
@@ -100,7 +103,8 @@ If you use the accompanying dataset, please cite it as follows:
 #### BibTeX
 
 @dataset{pessianzadeh2026dataset,
-  author       = {Pessianzadeh, Aria and Sultana, Naima and {Van den Bulck}, Hildegarde and Gefen, David and Jabbari, Shahin and Rezapour, Rezvaneh},
+  author       = {Pessianzadeh, Aria and Sultana, Naima and {Van den Bulck}, Hildegarde and Gefen,
+  David and Jabbari, Shahin and Rezapour, Rezvaneh},
   title        = {{Dataset of Trust and Distrust in Generative AI}},
   month        = may,
   year         = 2026,
