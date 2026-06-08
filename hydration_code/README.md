@@ -42,5 +42,5 @@ Join `hydrated_posts.csv` with your input CSV on the `id` column to get the full
 
 ## Citation
 
-For citation information for both the paper and dataset, please refer to the repository's main `README.md`
+For citation information, please refer to the repository's main `README.md`
 
