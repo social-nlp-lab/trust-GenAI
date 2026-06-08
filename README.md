@@ -102,6 +102,7 @@ If you use the accompanying dataset, please cite it as follows:
 
 #### BibTeX
 
+```bibtex
 @dataset{pessianzadeh2026dataset,
   author    = {Pessianzadeh, Aria and Sultana, Naima and {Van den Bulck}, Hildegarde and Gefen, David and Jabbari, Shahin and Rezapour, Rezvaneh},
   title     = {{Dataset of Trust and Distrust in Generative AI}},
@@ -110,7 +111,7 @@ If you use the accompanying dataset, please cite it as follows:
   publisher = {Zenodo},
   version   = {v1.0.0},
   doi       = {10.5281/zenodo.20331918},
-  url       = {https://doi.org/10.5281/zenodo.20331918}
+  url       = {[https://doi.org/10.5281/zenodo.20331918](https://doi.org/10.5281/zenodo.20331918)}
 }
 
 
