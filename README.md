@@ -102,15 +102,15 @@ If you use the accompanying dataset, please cite it as follows:
 
 #### BibTeX
 
-@dataset{pessianzadeh2026dataset,  author       = {Pessianzadeh, Aria and Sultana, Naima and {Van den Bulck}, Hildegarde and Gefen,
-  David and Jabbari, Shahin and Rezapour, Rezvaneh},
-    title        = {{Dataset of Trust and Distrust in Generative AI}},
-    month        = may,
-  year         = 2026,
-  publisher    = {Zenodo},
-  version      = {v1.0.0},
-  doi          = {10.5281/zenodo.20331918},
-  url          = {[https://doi.org/10.5281/zenodo.20331918](https://doi.org/10.5281/zenodo.20331918)}
+@dataset{pessianzadeh2026dataset,
+  author    = {Pessianzadeh, Aria and Sultana, Naima and {Van den Bulck}, Hildegarde and Gefen, David and Jabbari, Shahin and Rezapour, Rezvaneh},
+  title     = {{Dataset of Trust and Distrust in Generative AI}},
+  month     = may,
+  year      = 2026,
+  publisher = {Zenodo},
+  version   = {v1.0.0},
+  doi       = {10.5281/zenodo.20331918},
+  url       = {https://doi.org/10.5281/zenodo.20331918}
 }
 
 
