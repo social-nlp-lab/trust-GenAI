@@ -40,3 +40,7 @@ Join `hydrated_posts.csv` with your input CSV on the `id` column to get the full
 - If interrupted, re-run the same command — it resumes from where it left off.
 - Requires Python 3.6+.
 
+## Citation
+
+For citation information for both the paper and dataset, please refer to the repository's main `README.md`
+
